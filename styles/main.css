@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #141717;
+    --cinza-escuro: #232624;
+    --cinza-medio: #3c3f39;
+    --cinza-claro: #61635c;
+    --cinza-claro2: #979891;
+    --branco: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: var(--cor-principal);
+}
+
+.nav .nav-link.active {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+.nav .nav-link {
+    color: var(--branco);
+}
+
+.navbar-brand {
+    color: var(--cinza-claro2);
+    transition: all 0.4s;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1.875rem;
+}
+
+.navbar-toggler {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+.navbar-brand:hover {
+    color: var(--branco);
+    span {
+        color: var(--cinza-claro2);
+    }
+}
+
+.navbar-brand span {
+    color: var(--branco);
+    transition: all 0.4s;
+}
