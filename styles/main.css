@@ -63,3 +63,7 @@ body {
 .sobre-o-restaurante {
     background-color: var(--cinza-claro3);
 }
+
+.text-colored {
+    color: var(--cinza-claro2);
+}
