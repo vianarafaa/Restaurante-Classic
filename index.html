@@ -10,7 +10,7 @@
         <script src="lib/bootstrap.bundle.min.js" defer></script>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg sticky-top">
+        <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
             <div class="container">
                 <h1 class="navbar-brand m-0">Cla<span>ss</span>ic</h1>
                 <button class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -19,7 +19,7 @@
                 <nav class="navbar-collapse collapse justify-content-end" id="menu">
                     <ul class="nav nav-pills d-block d-md-flex">
                         <li class="nav-item fw-bold">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link" href="#sobre">
                                 <i class="bi bi-house-door me-1"></i>
                                 Sobre
                             </a>
@@ -47,8 +47,8 @@
             </div>
         </header>
 
-        <main>
-            <section class="sobre-o-restaurante">
+        <main data-bs-spy="scroll" data-bs-target="cabecalho">
+            <section class="sobre-o-restaurante" id="sobre">
                 <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
