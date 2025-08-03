@@ -6,6 +6,7 @@
     --cinza-medio: #3c3f39;
     --cinza-claro: #61635c;
     --cinza-claro2: #979891;
+    --cinza-claro3: #e6e6e5;
     --branco: #fcfcfc;
 }
 
@@ -49,4 +50,16 @@ body {
 .navbar-brand span {
     color: var(--branco);
     transition: all 0.4s;
+}
+
+.section-title {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.section-title span {
+    color: var(--cinza-claro2);
+}
+
+.sobre-o-restaurante {
+    background-color: var(--cinza-claro3);
 }
