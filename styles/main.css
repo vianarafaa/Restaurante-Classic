@@ -43,6 +43,7 @@ body {
     span {
         color: var(--cinza-claro2);
     }
+    cursor: pointer;
 }
 
 .navbar-brand span {
