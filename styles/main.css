@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--cinza-escuro);
 }
 
 .navbar {
@@ -20,7 +21,6 @@ body {
 
 .nav .nav-link.active {
     background-color: var(--cinza-escuro);
-    color: var(--branco);
 }
 
 .nav .nav-link {
@@ -34,7 +34,8 @@ body {
     font-size: 1.875rem;
 }
 
-.navbar-toggler {
+.navbar-toggler,
+#contato button {
     background-color: var(--cinza-escuro);
     color: var(--branco);
 }
@@ -60,10 +61,25 @@ body {
     color: var(--cinza-claro2);
 }
 
-.sobre-o-restaurante {
+#sobre,
+#cardapio {
     background-color: var(--cinza-claro3);
+}
+
+#cardapio .nav .nav-link {
+    color: var(--cinza-escuro);
+}
+
+#cardapio .nav .nav-link.active {
+    color: var(--cinza-claro3);
 }
 
 .text-colored {
     color: var(--cinza-claro2);
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }
